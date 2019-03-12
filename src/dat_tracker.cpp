@@ -1,3 +1,4 @@
+#include <opencv2/imgproc/imgproc_c.h>
 #include "dat_tracker.hpp"
 
 void DAT_TRACKER::tracker_dat_initialize(cv::Mat I, cv::Rect region){
